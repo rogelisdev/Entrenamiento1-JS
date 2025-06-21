@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rogelis Garcia">
+    <meta name="description"
+        content=" Su propósito es verificar la edad de un usuario mediante un formulario simple, mostrando mensajes personalizados según la información ingresada.">
+         <!--Vinculacion con archivo de CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/rosa.png" type="image/x-icon">
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <!--Titulo principal-->
+        <h1>Age verification system</h1>
+    </header>
+
+    <main>
+        <section class="principal">
+            <!--Formulario donde ingresaran los datos que seran enviados al archivo de JavaScript mediante (event)-->
+            <div class="Formulario">
+                <form id="JS" onsubmit="JS(event)">
+                    <div id="input_name">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+
+                    <div id="input_age">
+                        <label for="age">Age:</label>
+                        <input type="text" id="age" name="age">
+                    </div>
+
+                    <div id="start">
+                        <button type="submit" id="enviar">submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!--Seccion de pie de pagina-->
+    <footer class="piedepag">
+        <p>Derechos de autor © 2025 - Rogelis Garcia</p>
+    </footer>
+    <!--Vinculacion con archivo de JavaScript-->
+    <script src="./javascript/sistema_interactivo.js"></script>
+</body>
+
+</html>
